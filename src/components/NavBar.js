@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.svg';
@@ -49,6 +50,7 @@ export const NavBar = () => {
                 <a href="#"><img src={navIcon2} alt="" /></a>
                 <a href="#"><img src={navIcon3} alt="" /></a>
               </div>
+              <button className="vvd" onClick={() => console.log('connect')}><span>Let's connect</span></button>
             </span>
           </Navbar.Collapse>
         </Container>
