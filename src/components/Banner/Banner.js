@@ -1,13 +1,15 @@
-import { useState, useEffect} from "react";
-import { Container, Row, Col } from "react-bootstrap"
-import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImg from "../assets/img/header-img.svg"
-import React, { Component }  from 'react';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
+import React, { useState, useEffect } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import headerImg from "../../assets/img/header-img.svg";
+import { ArrowRightCircle } from 'react-bootstrap-icons';
+import 'animate.css';
 
 export const Banner = () =>{
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [ "Fullstack Developer", "AngularJs", "Reactjs", "NextJs", "Springboot", "Java","Javascript  typescript" ];
+    const toRotate = ["Front-End", " Back-End", "Fullstack Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -48,7 +50,6 @@ export const Banner = () =>{
                         <h1>{`José Lopes S.N  `}<span className="wrap">{text}</span></h1>
                         <p></p>
                         <p>Curioso e faminto por tecnologia, venho em busca oportunidade na parte de desenvolvimento em geral front ou back</p>
-                        <button onClick={() => console.log('connect')}>Conectar <ArrowRightCircle size={25}></ArrowRightCircle></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header IMG" />

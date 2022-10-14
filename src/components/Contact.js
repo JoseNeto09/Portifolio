@@ -37,7 +37,7 @@ export const Contact = () => {
     setButtonText("Send");
     let result = await response.json();
     setFormDetails(formInitialDetails);
-    if (result.code == 200) {
+    if (result.code === 200) {
       setStatus({ succes: true, message: 'Message sent successfully'});
     } else {
       setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
@@ -81,7 +81,7 @@ export const Contact = () => {
                     {
                       status.message &&
                       <Col>
-                        <p className={status.success == false ? "danger" : "success"}>{status.message}</p>
+                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
                       </Col>
                     }
                   </Row>

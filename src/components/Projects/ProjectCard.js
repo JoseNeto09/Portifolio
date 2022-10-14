@@ -1,5 +1,7 @@
 import { Col } from "react-bootstrap";
-import React, { Component }  from 'react';
+import React from 'react';
+import './styles.projects.css';
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
   return (

@@ -1,12 +1,15 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../../assets/img/meter1.svg";
+import meter2 from "../../assets/img/meter2.svg";
+import meter3 from "../../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png"
-import React from 'react';
+import colorSharp from "../../assets/img/color-sharp.png"
 
-export const SkillsFront = () => {
+import React  from 'react';
+import 'react-multi-carousel/lib/styles.css';
+
+import './styles.skills.css';
+
+export const SkillsBackend = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -33,21 +36,20 @@ export const SkillsFront = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Front-End</h2>
-                        <p>Skills<br>
-                        </br><br></br>Recentemente venho Desenvolvendo nos seguintes FrameWorks</p>
+                        <h2>Back-End</h2>
+                        <p>Skills<br></br><br></br>Recentemente venho desenvolvendo nessas linguagens de programação em projetos pessoais afins.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Reactjs</h5>
+                                <h5>Javascript</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>AngularJs</h5>
+                                <h5>Typescript</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>SpringBoot</h5>
+                                <h5>Java</h5>
                             </div>
                         </Carousel>
                     </div>

@@ -1,14 +1,14 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../../assets/img/meter1.svg";
+import meter2 from "../../assets/img/meter2.svg";
+import meter3 from "../../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
-import React  from 'react';
+import colorSharp from "../../assets/img/color-sharp.png"
+import React from 'react';
 
-export const SkillsBackend = () => {
+import './styles.skills.css';
+
+export const SkillsFront = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -35,20 +35,21 @@ export const SkillsBackend = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Back-End</h2>
-                        <p>Skills<br></br><br></br>Recentemente venho desenvolvendo nessas linguagens de programação em projetos pessoais afins.</p>
+                        <h2>Front-End</h2>
+                        <p>Skills<br>
+                        </br><br></br>Recentemente venho Desenvolvendo nos seguintes FrameWorks</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Javascript</h5>
+                                <h5>Reactjs</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Typescript</h5>
+                                <h5>AngularJs</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Java</h5>
+                                <h5>SpringBoot</h5>
                             </div>
                         </Carousel>
                     </div>
