@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+/*estilos de cada componente*/ 
 import './App.css';
 import './components/Navbar/styles.navbar.css';
 import './components/Banner/styles.banner.css';
@@ -15,15 +16,17 @@ import { SkillsFront } from './components/Skills/SkillsFront';
 import { Projects } from './components/Projects/Projects';
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer/Footer";
+import { SobreMim } from './components/Sobre/SobreMim'; 
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Banner />
-      <SkillsBackend />
       <SkillsFront/>
+      <SkillsBackend />
       <Projects />
+      <SobreMim />
       <Contact />
       <Footer />
     </div>

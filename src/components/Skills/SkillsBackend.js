@@ -2,7 +2,6 @@ import meter1 from "../../assets/img/meter1.svg";
 import meter2 from "../../assets/img/meter2.svg";
 import meter3 from "../../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
-import colorSharp from "../../assets/img/color-sharp.png"
 
 import React  from 'react';
 import 'react-multi-carousel/lib/styles.css';
@@ -36,8 +35,8 @@ export const SkillsBackend = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Back-End</h2>
-                        <p>Skills<br></br><br></br>Recentemente venho desenvolvendo nessas linguagens de programação em projetos pessoais afins.</p>
+                        <h2>Back</h2>
+                        <p>Recentemente venho desenvolvendo nessas linguagens de programação em projetos pessoais afins.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
@@ -56,7 +55,6 @@ export const SkillsBackend = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   )
 }

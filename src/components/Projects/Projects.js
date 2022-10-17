@@ -1,13 +1,14 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+
 import projImg1 from "../../assets/img/project-img1.png";
 import projImg2 from "../../assets/img/project-img2.png";
 import projImg3 from "../../assets/img/project-img3.png";
-import colorSharp2 from "../../assets/img/color-sharp2.png";
+import colorSharp2 from "../../assets/img/color-sharp.png";
+
 import TrackVisibility from 'react-on-screen';
 import React from 'react';
-/* eslint-disable jsx-a11y/anchor-is-valid */
-
 import './styles.projects.css';
 import 'animate.css';
 
@@ -29,7 +30,6 @@ export const Projects = () => {
       imgUrl: projImg3,
     }
   ];
-
   return (
     <section className="project" id="project">
       <Container>
@@ -38,8 +38,8 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h2>Projetos desenvolvidos</h2>
+                <p>Projetos desenvolvidos com objetivo de adquirir técnicas em desenvolvimento web, seguindo regras de negócio, análise de requisitos de cada projeto, além de colocar em prática tudo que foi aprendido e aprimorado durante esses anos no mercado, e no curso Bacharel em Ciências da Computação (CC).</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

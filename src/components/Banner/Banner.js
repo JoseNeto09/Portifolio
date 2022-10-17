@@ -3,13 +3,12 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../../assets/img/header-img.svg";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 
 export const Banner = () =>{
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Front-End", " Back-End", "Fullstack Developer"];
+    const toRotate = ["Web Developer", "Fullstack Developer", "AngularJs ReactJs", "Java Javascript Typescript ", "Mysql PostgreSQL MongoDB", "Github GitLab"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -47,9 +46,7 @@ export const Banner = () =>{
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <h1>{`José Lopes S.N  `}<span className="wrap">{text}</span></h1>
-                        <p></p>
-                        <p>Curioso e faminto por tecnologia, venho em busca oportunidade na parte de desenvolvimento em geral front ou back</p>
+                        <h1>{``}<span className="wrap">{text}</span></h1>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header IMG" />

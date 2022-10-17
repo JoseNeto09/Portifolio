@@ -28,17 +28,24 @@ export const SkillsFront = () => {
       items: 1
     }
   };
-
+  
   return (
     <section className="skill" id="skills">
         <div className="container">
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Front-End</h2>
-                        <p>Skills<br>
-                        </br><br></br>Recentemente venho Desenvolvendo nos seguintes FrameWorks</p>
+                        <h2>Front</h2>
+                        <p>Linguagem de marcação e FrameWorks Recentementes venho Desenvolvendo Meus Projetos.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>HTML</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>CSS</h5>
+                            </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Reactjs</h5>
