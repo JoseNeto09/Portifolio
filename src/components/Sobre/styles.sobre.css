@@ -1,8 +1,8 @@
 
 /************ Sobre Css ************/
 .sobre {
-  margin-top: 0;
   padding: 260px 0 100px 0;
+  padding-top: 100px;
   background-image: url('../../assets/img/color-sharp.png');
   background-position: top center;
   background-size: cover;
@@ -27,7 +27,7 @@
   display: block;
 }
 .sobre p {
-  color: #B8B8B8;
+  color: #ffffff;
   font-size: 20px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -35,28 +35,24 @@
   margin-bottom: 30px;
 }
 .sobre button {
-    font-weight: 700;
-    color: #ffff;
-    border: 1px solid #ffff;
-    padding: 18px 34px;
-    font-size: 18px;
-    align-items: center;
-    position: relative;
-    background-color: transparent;
-    transition: 0.3s ease-in-out;
-    margin-top: 20px;
+  font-weight: 500;
+  color: #ffff;
+  border: 1px solid #ffffff;
+  padding: 19px 34px;
+  font-size: 18px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
 }
-
-.sobre button a {
+.sobre button span {
   z-index: 1;
 }
-
 .sobre button::before {
   content: "";
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #ffff;
+  background-color: #fff;
   left: 0;
   top: 0;
   z-index: -1;
@@ -65,17 +61,17 @@
 .sobre button:hover {
   color: #ffffff;
 }
-
 .sobre button:hover::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .sobre img {
-  border-radius: 400px;
+  padding-left: 5px;
+  border-radius: 100px;
 }
 
 .txt-rotate > .wrap {
-  border-right: 0.08em solid #000;
+  border-right: 0.04em solid #ffffff;
 }

@@ -14,7 +14,7 @@ export const Contact = () => {
     message: ''
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
+  const [buttonText, setButtonText] = useState('Enviar');
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
@@ -26,7 +26,7 @@ export const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setButtonText("Sending...");
+    setButtonText("Enviando...");
     let response = await fetch("http://localhost:5000/contact", {
       method: "POST",
       headers: {
@@ -34,7 +34,7 @@ export const Contact = () => {
       },
       body: JSON.stringify(formDetails),
     });
-    setButtonText("Send");
+    setButtonText("Enviar");
     let result = await response.json();
     setFormDetails(formInitialDetails);
     if (result.code === 200) {
@@ -66,7 +66,7 @@ export const Contact = () => {
                       <input type="text" value={formDetails.firstName} placeholder="Nome" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.lasttName} placeholder="sobre Nome" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
+                      <input type="text" value={formDetails.lasttName} placeholder="SobreNome" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
                     </Col>
                     <Col size={12} sm={6} className="px-1">
                       <input type="email" value={formDetails.email} placeholder="Email" onChange={(e) => onFormUpdate('email', e.target.value)} />

@@ -8,7 +8,7 @@ import 'animate.css';
 export const Banner = () =>{
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Web Developer", "Fullstack Developer", "AngularJs ReactJs", "Java Javascript Typescript ", "Mysql PostgreSQL MongoDB", "Github GitLab"];
+    const toRotate = ["Web Developer", "Fullstack Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;

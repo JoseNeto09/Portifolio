@@ -35,7 +35,7 @@ export const SkillsBackend = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Back</h2>
+                        <h2>BackEnd</h2>
                         <p>Recentemente venho desenvolvendo nessas linguagens de programação em projetos pessoais afins.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">

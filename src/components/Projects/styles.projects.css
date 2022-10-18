@@ -1,23 +1,21 @@
-
 /************ Projects Css ************/
 .project {
     padding: 80px 0;
     position: relative;
-    background-color: #151515;
   }
   .project h2 {
-      font-size: 45px;
-      font-weight: 700;
+    font-size: 45px;
+    font-weight: 800;
     text-align: center;
   }
   .project p {
-    color: #B8B8B8;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 20px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px auto 30px auto;
     text-align: center;
-    width: 56%;
+    width: 65%;
   }
   .project .nav.nav-pills {
     width: 72%;
@@ -33,7 +31,7 @@
     background-color: transparent;
     border-radius: 0;
     padding: 17px 0;
-    color: #fff;
+    color: #ffffff;
     width: 100%;
     font-size: 17px;
     letter-spacing: 0.8px;
@@ -44,21 +42,21 @@
     z-index: 0;
   }
   .project .nav.nav-pills .nav-link::before {
-      content: "";
-      position: absolute;
-      width: 0;
-      height: 100%;
-      background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-      top: 0;
-      left: 0;
-      z-index: -1;
-      transition: 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
   }
   .project .nav.nav-pills .nav-link.active::before {
-      width: 100% !important;
+    width: 100% !important;
   }
   .project .nav.nav-pills .nav-link.active {
-      border: 1px solid rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
   }
   .nav-link#projects-tabs-tab-first {
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -134,8 +132,8 @@
     width: 92%;
   }
   .contact h2 {
-      font-size: 45px;
-      font-weight: 700;
+    font-size: 45px;
+    font-weight: 700;
     margin-bottom: 30px;
   }
   .contact form input, .contact form textarea {
