@@ -1,7 +1,7 @@
 
 /************ Navbar Css ************/
   nav.navbar {
-    padding: 18px 0;
+    padding: 30px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -9,11 +9,11 @@
     transition:  0.32s ease-in-out;
   }
   nav.navbar.scrolled {
-    padding: 0px 0;
+    padding: 25px 0;
     background-color: #121212;
   }
   nav.navbar a.navbar-brand {
-      width: 9%;
+    width: 10%;
   }
   nav.navbar .navbar-nav .nav-link.navbar-link {
     font-weight: 400;
@@ -30,10 +30,6 @@
   span.navbar-text {
       display: flex;
       align-items: center;
-  }
-  .social-icon {
-      display: inline-block;
-      margin-left: 14px;
   }
   .social-icon a {
       width: 42px;

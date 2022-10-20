@@ -36,7 +36,7 @@ export const SkillsFront = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>FrontEnd</h2>
-                        <p>Linguagem de marcação e FrameWorks Recentementes venho Desenvolvendo Meus Projetos.</p>
+                        <p>Linguagem de marcação e FrameWorks utilizados</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter3} alt="Dev image" />
