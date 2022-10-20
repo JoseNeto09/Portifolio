@@ -7,7 +7,8 @@ import './components/Navbar/styles.navbar.css';
 import './components/Banner/styles.banner.css';
 import './components/Footer/styles.footer.css';
 import './components/Projects/styles.projects.css';
-import './components/Skills/styles.skills.css';
+import './components/Skills/styles.skillsFront.css';
+import './components/Skills/styles.skillsBack.css';
 
 import { NavBar} from './components/Navbar/NavBar';
 import { Banner } from './components/Banner/Banner';

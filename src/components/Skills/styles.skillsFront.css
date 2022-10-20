@@ -2,16 +2,15 @@
   .skill {
     padding: 0 0 70px;
     position: relative;
-    margin-top: 20px;
   }
   .skill-bx {
     background: transparent;
     border-radius: 64px;
     text-align: center;
     padding: 60px 50px;
-    margin-top: -60px;
+    padding-top: 30px;
   }
-  .skill h2 {
+  .skill  h2 {
     font-size: 45px;
     font-weight: 700;
   }

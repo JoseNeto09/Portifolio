@@ -6,7 +6,7 @@ import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../../assets/img/color-sharp.png";
 import React from 'react';
 
-import './styles.skills.css';
+import './styles.skillsFront.css';
 
 export const SkillsFront = () => {
   const responsive = {
@@ -39,15 +39,15 @@ export const SkillsFront = () => {
                         <p>Linguagem de marcação e FrameWorks Recentementes venho Desenvolvendo Meus Projetos.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Dev image" />
                                 <h5>Html</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Dev image" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Dev image" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">

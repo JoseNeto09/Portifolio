@@ -53,6 +53,7 @@
 }
 .banner img {
   animation: updown 3s linear infinite;
+  margin-top: 120px;
 }
 @keyframes updown {
     0% {
