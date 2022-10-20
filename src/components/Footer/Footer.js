@@ -5,7 +5,9 @@ import logo from "../../assets/img/logo.svg";
 import navIcon1 from "../../assets/img/nav-icon1.svg";
 import navIcon2 from "../../assets/img/nav-icon2.svg";
 import navIcon3 from "../../assets/img/nav-icon3.svg";
+import navIcon0 from "../../assets/img/nav-iconNavWatsapp.svg";
 import React  from 'react';
+
 
 export const Footer = () => {
   return (
@@ -17,6 +19,7 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
+              <a href="https://www.instagram.com/joselopes.sn/ "><img src={navIcon0} alt="Icon" /></a>
               <a href="https://www.linkedin.com/in/jos%C3%A9-lopes-sobrinho-neto/"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://github.com/JoseNeto09"><img src={navIcon3} alt="Icon" /></a>
               <a href="https://www.instagram.com/joselopes.sn/ "><img src={navIcon2} alt="Icon" /></a>
