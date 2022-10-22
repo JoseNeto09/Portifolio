@@ -2,12 +2,12 @@
 /************ Sobre Css ************/
 .sobre {
   padding: 260px 0 100px 0;
-  padding-top: 100px;
+  padding-top: 90px;
   background-image: url('../../assets/img/color-sharp.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 120px;
+  margin-top: 90px;
 }
 .sobre .tagline {
   font-weight: 700;

@@ -8,11 +8,11 @@
     border-radius: 64px;
     text-align: center;
     padding: 60px 50px;
-    padding-top: 30px;
   }
   .skill  h2 {
     font-size: 45px;
     font-weight: 700;
+    padding-top: 90px;
   }
   .skill p {
     color: #ffff;
