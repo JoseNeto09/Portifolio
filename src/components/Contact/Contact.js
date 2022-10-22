@@ -1,9 +1,12 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { Container, Row, Col } from "react-bootstrap";
+
+import contactImg from "../../assets/img/contact-img.svg";
+import 'animate.css';
+import './styles.contact.css';
+
 
 export const Contact = () => {
   const form = useRef();
@@ -37,13 +40,19 @@ export const Contact = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>Me Envie uma mensagem!</h2>
                 <form ref={form} onSubmit={sendEmail}>
-                  <label>Name</label>
-                  <input type="text" name="user_name" />
-                  <label>Email</label>
-                  <input type="email" name="user_email" />
-                  <label>Messagem</label>
-                  <textarea name="message" />
-                  <input type="submit" value="Send" />
+                <Row>
+                  <Col size={12} sm={6} className="px-1">
+                    <input type="text" placeholder="Nome Completo" name="user_name" />
+                  </Col>
+                  <Col size={12} sm={6} className="px-1">
+                    <input type="email" placeholder="E-mail" name="user_email" />
+                  </Col>
+                  <textarea placeholder="Envie sua Mensagem" name="message" />
+                  <button type="submit">Enviar</button>
+                  <div className='popup'>
+                    
+                  </div>
+                </Row>
               </form>
             </div>}
             </TrackVisibility>

@@ -1,7 +1,7 @@
 {
   "name": "portifolio",
   "version": "0.1.0",
-  "homepage": "http://JoseNeto09.github.io/Portifolio",
+  "homepage": "https://JoseNeto09.github.io/Portifolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",

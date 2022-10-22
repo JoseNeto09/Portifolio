@@ -43,13 +43,15 @@
   font-size: 18px;
   position: relative;
   background-color: transparent;
-  transition: 0.3s ease-in-out;
+  transition: 0.90s ease-in-out;
+  border-radius: 20px;
 }
 .sobre button span {
   z-index: 1;
 }
 .sobre button::before {
   content: "";
+  border-radius: 20px;
   width: 0%;
   height: 100%;
   position: absolute;

@@ -15,9 +15,9 @@ import { Banner } from './components/Banner/Banner';
 import { SkillsBackend } from './components/Skills/SkillsBackend';
 import { SkillsFront } from './components/Skills/SkillsFront';
 import { Projects } from './components/Projects/Projects';
-import { Contact } from "./components/Contact";
+import { Contact } from "./components/Contact/Contact";
 import { Footer } from "./components/Footer/Footer";
-import { SobreMim } from './components/Sobre/SobreMim'; 
+import { SobreMim } from './components/Sobre/SobreMim';
 
 function App() {
   return (
