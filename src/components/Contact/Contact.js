@@ -2,8 +2,9 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import TrackVisibility from 'react-on-screen';
 import { Container, Row, Col } from "react-bootstrap";
-
 import contactImg from "../../assets/img/contact-img.svg";
+import Popup from 'reactjs-popup';
+
 import 'animate.css';
 import './styles.contact.css';
 
@@ -48,10 +49,9 @@ export const Contact = () => {
                     <input type="email" placeholder="E-mail" name="user_email" />
                   </Col>
                   <textarea placeholder="Envie sua Mensagem" name="message" />
-                  <button type="submit">Enviar</button>
-                  <div className='popup'>
-                    
-                  </div>
+                  <Popup trigger={<button>Enviar</button>}>
+                  <div className='Popup'>Mensagem enviada com sucesso!!</div>
+                  </Popup>
                 </Row>
               </form>
             </div>}

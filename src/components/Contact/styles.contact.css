@@ -54,6 +54,7 @@
   .contact form button span {
     z-index: 1;
     position: relative;
+    filter: blur(0.2px);
   }
   .contact form button:hover {
     color: #fff;
@@ -75,4 +76,18 @@
   .contact form button:hover::before {
     width: 100%;
     
+  }
+
+  .Popup{
+    margin-top: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #ffff;
+    border: 1px solid #ffffff;
+    padding: 30px 34px;
+    font-size: 18px;
+    position: relative;
+    filter: blur(0.2px);
+    transition: 0.3s ease-in-out;
+    border-radius: 20px;
   }
