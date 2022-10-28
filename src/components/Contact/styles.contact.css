@@ -112,14 +112,13 @@
     padding-top: 10px;
     padding-left: 30px;
     font-size: 20px;
-    align-items: center;
     justify-content: center;
     color: black;
-    padding-bottom: 50px;
   }
 
   .modal-content button{
-    align-items: center;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
     color: black;
     border: 1px solid black;
@@ -127,4 +126,6 @@
     background-color: white;
     transition: 0.9s ease-in-out;
     border-radius: 30px;
+    margin-left:540px;
+    margin-top:20px;
   }

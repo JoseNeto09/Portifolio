@@ -66,12 +66,13 @@ export const Contact = () => {
                    overlayClassName= "modal-overlay"
                    className="modal-content"
                   >
+                    <button onClick={closeModal}>X</button>
                     <h2>Mensagem enviada com sucesso</h2>
                     <hr  />
                     <p>
-                      Obrigado pelo seu feedback do meu portifolio irie entrar em contato de imediato.
+                      Obrigado pelo seu feedback no meu portifolio, irie entrar em contato de imediato.
                     </p>
-                    <button className= "closeModal" onClick={closeModal}>Close</button>
+                    
                   </Modal>
                 </Row>
               </form>
