@@ -1,9 +1,9 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import TrackVisibility from 'react-on-screen';
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../../assets/img/contact-img.svg";
-import Popup from 'reactjs-popup';
+import Modal from 'react-modal';
 
 import 'animate.css';
 import './styles.contact.css';
@@ -11,6 +11,15 @@ import './styles.contact.css';
 
 export const Contact = () => {
   const form = useRef();
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal(){
+    setIsOpen(true);
+  }
+
+  function closeModal(){
+    setIsOpen(false);
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -49,9 +58,21 @@ export const Contact = () => {
                     <input type="email" placeholder="E-mail" name="user_email" />
                   </Col>
                   <textarea placeholder="Envie sua Mensagem" name="message" />
-                  <Popup trigger={<button>Enviar</button>}>
-                  <div className='Popup'>Mensagem enviada com sucesso!!</div>
-                  </Popup>
+                  <button onClick={openModal}>Enviar</button>
+                  <Modal
+                   isOpen={modalIsOpen}
+                   onRequestClose={closeModal}
+                   contentlabel = "example Modal"
+                   overlayClassName= "modal-overlay"
+                   className="modal-content"
+                  >
+                    <h2>Mensagem enviada com sucesso</h2>
+                    <hr  />
+                    <p>
+                      Obrigado pelo seu feedback do meu portifolio irie entrar em contato de imediato.
+                    </p>
+                    <button className= "closeModal" onClick={closeModal}>Close</button>
+                  </Modal>
                 </Row>
               </form>
             </div>}
