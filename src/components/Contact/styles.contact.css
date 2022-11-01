@@ -92,7 +92,7 @@
 
   .modal-content{
     width: 90%;
-    height: 30%;
+    height: 280px;
     max-width: 600px;
     background-color: white;
     border-radius: 5px;
@@ -114,6 +114,7 @@
     font-size: 20px;
     justify-content: center;
     color: black;
+    margin-right: 20px;
   }
 
   .modal-content button{

@@ -16,7 +16,6 @@ export const Contact = () => {
   function openModal(){
     setIsOpen(true);
   }
-
   function closeModal(){
     setIsOpen(false);
   }
