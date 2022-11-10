@@ -47,7 +47,8 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Me Envie uma mensagem!</h2>
+                
+                <h2> Eae curtiu? Me Envie uma mensagem!</h2>
                 <form ref={form} onSubmit={sendEmail}>
                 <Row>
                   <Col size={12} sm={6} className="px-1">
@@ -71,7 +72,6 @@ export const Contact = () => {
                     <p>
                       Obrigado pelo seu feedback no meu portifolio, irie entrar em contato de imediato.
                     </p>
-                    
                   </Modal>
                 </Row>
               </form>

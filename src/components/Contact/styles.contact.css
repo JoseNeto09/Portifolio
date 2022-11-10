@@ -4,7 +4,7 @@
   }
   .contact img {
     width: 92%;
-    padding-top: 50px;
+    padding-top: 150px;
   }
   .contact h2 {
     font-size: 45px;
@@ -17,20 +17,20 @@
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     color: #fff;
-    margin: 0 0 8px 0;
-    padding: 18px 26px;
+    margin: 20px 0 8px 0;
     font-weight: 500;
     font-size: 18px;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     transition: 0.3s ease-in-out;
     padding-top: 20px;
+    padding: 29px 20px;
   }
   .contact form input:focus, .contact form textarea:focus {
     background: #fff;
 
   }
   .contact form input::placeholder, .contact form textarea::placeholder {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     color: #fff;
   }
@@ -40,15 +40,15 @@
     border-radius: 50px;
   }
   .contact form button {
-    font-weight: 500;
+    font-weight: 700;
     cursor: pointer;
     color: #ffff;
     border: 1px solid #ffffff;
-    padding: 19px 34px;
+    padding: 29px 90px;
     font-size: 18px;
     position: relative;
     background-color: transparent;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
     border-radius: 20px;
   }
   .contact form button span {

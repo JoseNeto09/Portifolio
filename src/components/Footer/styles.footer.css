@@ -78,8 +78,8 @@
 }
 .social-icon a::before {
     content: "";
-    width: 82px;
-    height: 82px;;
+    width: 90px;
+    height: 90px;
     position: absolute;
     background-color: #ffffff;
     border-radius: 50%;
