@@ -19,7 +19,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
 }
 
 html {
@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  font-weight: 400;
+  font-weight: 700;
   overflow-x: hidden;
   position: relative;
   background-color: #121212 !important;

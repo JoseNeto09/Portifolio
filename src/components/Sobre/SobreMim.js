@@ -5,6 +5,8 @@ import dev from "../../assets/img/dev.png";
 import  './styles.sobre.css';
 import 'animate.css';
 
+
+
 export const SobreMim = () =>{
     return(
         <section className="sobre" id="sobre">
@@ -19,7 +21,10 @@ export const SobreMim = () =>{
                     <Col xs={9} md={6} xl={5}>
                         <img src={dev} alt="Dev image" />
                     </Col>
-                    <a target="_blank" href="https://docs.google.com/document/d/1f2mxPxCobAks2mUQhg_FAVvPgBq-iGgSpkiEdlGYa-U/edit?usp=sharing"> <button className = "MeuCv" id="bt" >VEJA MEU CURRÍCULO</button> </a>
+                    <Col xs={9} md={6} xl={5}>
+                    <a target="blank" href="https://docs.google.com/document/d/1f2mxPxCobAks2mUQhg_FAVvPgBq-iGgSpkiEdlGYa-U/edit?usp=sharing">
+                            <button className = "MeuCv" id="bt" >VEJA MEU CURRÍCULO</button> </a>
+                    </Col>
                 </Row>
             </Container>
         </section>
