@@ -16,6 +16,7 @@ export const Footer = () => {
         <Row className="align-items-center">
           <Col size={12} sm={6}>
             <img src={logo} alt="Logo" />
+            <p>Copyright 2022. All Rights Reserved José Lopes <p>+55 (83) 998109-8868</p> </p>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
@@ -23,8 +24,8 @@ export const Footer = () => {
               <a href="https://github.com/JoseNeto09"><img src={navIcon3} alt="Icon" /></a>
               <a href="https://www.instagram.com/joselopes.sn/ "><img src={navIcon2} alt="Icon" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved José Lopes</p>
           </Col>
+          
         </Row>
       </Container>
     </footer>
