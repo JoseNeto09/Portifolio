@@ -1,7 +1,6 @@
 
 /************ Banner Css ************/
 .banner {
-  margin-top: 0;
   padding: 260px 0 100px 0;
   background-image: url('../../assets/img/banner-bg.png');
   background-position: top center;
@@ -53,7 +52,6 @@
 }
 .banner img {
   animation: updown 3s linear infinite;
-  margin-top: 120px;
 }
 @keyframes updown {
     0% {
@@ -68,4 +66,8 @@
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+.wrap{
+  display: inline-block;
 }
