@@ -54,10 +54,6 @@ export const SkillsFront = () => {
                                 <img src={meter2} alt="Image" />
                                 <h5>Angular</h5>
                             </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Next</h5>
-                            </div>
                         </Carousel>
                     </div>
                 </div>
