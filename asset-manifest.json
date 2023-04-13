@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/Portifolio/static/css/main.b14e28f8.css",
+    "main.css": "/Portifolio/static/css/main.4a646422.css",
     "main.js": "/Portifolio/static/js/main.ffae4dcc.js",
     "static/js/787.be55e6d0.chunk.js": "/Portifolio/static/js/787.be55e6d0.chunk.js",
     "static/media/color-sharp.png": "/Portifolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/meter1.png": "/Portifolio/static/media/meter1.ce5f6525a8198788be6d.png",
     "static/media/meter3.png": "/Portifolio/static/media/meter3.7ec5d03526b7c316f952.png",
     "static/media/meter2.png": "/Portifolio/static/media/meter2.05a44b29afbe7879d9cc.png",
-    "static/media/banner-bg.png": "/Portifolio/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/project-img2.png": "/Portifolio/static/media/project-img2.479515a808c42fa33a38.png",
     "static/media/logo.png": "/Portifolio/static/media/logo.cec73d2016532b009821.png",
     "static/media/CentraNo2-Bold.ttf": "/Portifolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -24,12 +23,12 @@
     "static/media/nav-icon2.svg": "/Portifolio/static/media/nav-icon2.5be9228ce7cd67d571adfaffc74e0466.svg",
     "index.html": "/Portifolio/index.html",
     "static/media/nav-icon1.svg": "/Portifolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.b14e28f8.css.map": "/Portifolio/static/css/main.b14e28f8.css.map",
+    "main.4a646422.css.map": "/Portifolio/static/css/main.4a646422.css.map",
     "main.ffae4dcc.js.map": "/Portifolio/static/js/main.ffae4dcc.js.map",
     "787.be55e6d0.chunk.js.map": "/Portifolio/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b14e28f8.css",
+    "static/css/main.4a646422.css",
     "static/js/main.ffae4dcc.js"
   ]
 }
