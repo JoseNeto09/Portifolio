@@ -8,21 +8,22 @@
   background-repeat: no-repeat;
 }
 .banner .tagline {
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.8px;
   padding: 8px 10px;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
   display: inline-block;
 }
 .banner h1 {
   font-size: 65px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
   line-height: 1;
   margin-bottom: 20px;
+  padding-left: 40px;
   display: block;
 }
 .banner p {
@@ -51,7 +52,11 @@
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 3s linear infinite;
+  margin: 0;
+  border-radius: 50px;
+  max-width: 400px;
+  padding-left: 10px;
+  animation: updown 5s linear infinite;
 }
 @keyframes updown {
     0% {

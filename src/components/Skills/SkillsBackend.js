@@ -51,6 +51,10 @@ export const SkillsBackend = () => {
                                 <img src={meter3} alt="Image" />
                                 <h5>Java</h5>
                             </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5>Python</h5>
+                            </div>
                         </Carousel>
                     </div>
                 </div>
