@@ -1,6 +1,6 @@
 /************ Footer Css ************/
 .footer {
-    padding: 30px 0 60px 0;
+    padding: 10px 0 10px 0;
     background-image: url('../../assets/img/footer-bg.png');
     background-position: center center;
     background-size: cover;
@@ -40,7 +40,7 @@
   .new-email-bx input {
     width: 100%;
     color: #121212;
-    font-weight: 500;
+    font-weight: 300;
     background: transparent;
     border: 0;
     padding: 0 15px;
@@ -49,12 +49,12 @@
     background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
     padding: 20px 65px;
     color: #fff;
-    font-weight: 500;
+    font-weight: 300;
     letter-spacing: 0.5px;
     border-radius: 18px;
   }
   .footer img {
-    width: 49%;
+    width: 50%;
   }
   .footer p {
     font-weight: 400;

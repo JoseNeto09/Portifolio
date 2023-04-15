@@ -3,7 +3,7 @@
   nav.navbar {
     display: flex;
     font-size: 25px;
-    padding: 30px 10px;
+    padding: 3px 55px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -12,8 +12,8 @@
     justify-content: space-between;
   }
   nav.navbar.scrolled {
-    padding: 15px 0;
-    background-color: #121212;
+    padding: 9px 0;
+    background-color: transparent;
   }
   nav.navbar a.navbar-brand {
     width: 14%;

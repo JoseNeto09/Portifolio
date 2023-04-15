@@ -16,7 +16,7 @@
   background-repeat: no-repeat;
 }
 .sobre .tagline {
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.8px;
   padding: 8px 10px;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
@@ -27,15 +27,18 @@
 }
 .sobre h1 {
   font-size: 80px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.8px;
-  line-height: 1;
-  margin-bottom: 50px;
+  line-height: 0.9;
+  margin-bottom: 39px;
+  margin-left: 100px;
   display: block;
+
 }
 .sobre p {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: 300;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 100%;
@@ -45,9 +48,9 @@
   font-weight: 500;
   display:flex;
   color: #ffff;
-  border: 2px solid #ffffff;
-  padding: 17px 90px;
-  font-size: 25px;
+  border: 3px solid #ffffff;
+  padding: 10px 37px 10px;
+  font-size: 30px;
   position:relative;
   background-color: transparent;
   transition: 0.90s ease-in-out;

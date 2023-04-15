@@ -12,6 +12,7 @@
   .project p {
     color: #ffffff;
     font-size: 30px;
+    font-weight: 300;
     line-height: 1.4em;
     margin: 5px auto 30px auto;
     justify-content: center;

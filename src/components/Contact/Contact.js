@@ -48,7 +48,7 @@ export const Contact = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 
-                <h2> Eae curtiu? Me Envie uma mensagem!</h2>
+                <h2> Me Envie uma mensagem!</h2>
                 <form ref={form} onSubmit={sendEmail}>
                 <Row>
                   <Col size={12} sm={6} className="px-1">
