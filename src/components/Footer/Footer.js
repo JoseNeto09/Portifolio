@@ -14,9 +14,9 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} sm={6}>
+          <Col size={6} sm={6}>
             <img src={logo} alt="Logo" />
-            <p>Copyright 2022. All Rights Reserved José Lopes <p>+55 (83) 998109-8868</p> </p>
+            <p><p>+55 (83) 998109-8868</p> Copyright 2022. All Rights Reserved José Lopes </p>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">

@@ -12,9 +12,15 @@
     justify-content: space-between;
   }
   nav.navbar.scrolled {
-    padding: 9px 0;
-    background-color: transparent;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) 
+    -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    opacity: 20px;
+    padding: 0 0 0 0;
   }
+  nav.scrolled img{
+    width: 70%;
+  } 
+
   nav.navbar a.navbar-brand {
     width: 14%;
   }

@@ -1,15 +1,15 @@
 
 /************ Banner Css ************/
 .banner {
-  padding: 300px 0 100px 0;
+  padding: 150px 0 180px;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .banner .tagline {
   font-weight: 800;
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
+  letter-spacing: 0.9px;
+  padding: 7px 10px;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
@@ -17,46 +17,23 @@
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 600;
   letter-spacing: 0.9px;
-  line-height: 1;
-  margin-bottom: 20px;
-  padding-left: 40px;
-  display: block;
-}
-.banner p {
-  color: #B8B8B8;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  width: 96%;
-}
-.banner button {
-  color: #fff;
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 60px;
-  letter-spacing: 0.8px;
-  display: flex;
   align-items: center;
-}
-.banner button svg {
-  font-size: 25px;
-  margin-left: 10px;
-  transition: 0.3s ease-in-out;
+  justify-content: center;
+  padding-bottom: 10px;
   line-height: 1;
 }
-.banner button:hover svg {
-  margin-left: 25px;
-}
+
 .banner img {
-  margin: 0;
+  display: flex;
   border-radius: 50px;
-  max-width: 400px;
-  padding-left: 10px;
-  animation: updown 5s linear infinite;
+  max-width: 370px;
+  padding-top: 20px;
+  animation: updown 4s linear infinite;
 }
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -69,7 +46,7 @@
     }
 }
 .txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
+  border-right: 0.05em solid #666;
 }
 
 .wrap{

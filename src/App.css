@@ -74,6 +74,20 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
+@media only screen and (min-width: 480px) {
+  main .container {
+		max-width: 100%;
+		padding: 0 150px;
+  }
+} 
+  @media only screen and (max-width: 480px) {
+    main .container {
+      max-width: 100%;
+      padding: 0 150px;
+    }
+}
+
+
 p.success {
 	color: green;
 }

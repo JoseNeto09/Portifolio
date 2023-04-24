@@ -8,10 +8,10 @@ import 'animate.css';
 export const Banner = () =>{
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["José lopes", "Front-End", "Back-End"];
+    const toRotate = ["José Lopes Sobrinho Neto", "Software Developer Jr"];
     const [text, setText] = useState('');
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 2000;
+    const [delta, setDelta] = useState(100 - Math.random() * 10);
+    const period = 100;
 
     useEffect(() => {
         let ticker = setInterval(() => {

@@ -1,4 +1,3 @@
-
 /************ Sobre Css ************/
 @media (min-width:1700px) {
 	main .container {
@@ -31,7 +30,6 @@
   letter-spacing: 0.8px;
   line-height: 0.9;
   margin-bottom: 39px;
-  margin-left: 100px;
   display: block;
 
 }
