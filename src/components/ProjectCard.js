@@ -1,6 +1,5 @@
 import { Col } from "react-bootstrap";
 import React from 'react';
-import './styles.projects.css';
 
 const responsive = {
   superLargeDesktop: {

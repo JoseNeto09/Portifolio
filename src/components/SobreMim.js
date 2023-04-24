@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import  './styles.sobre.css';
 import 'animate.css';
 
 export const SobreMim = () =>{

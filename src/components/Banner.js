@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../../assets/img/header-img.jpg";
+import headerImg from "../assets/img/header-img.jpg";
 import 'animate.css';
 
 export const Banner = () =>{
