@@ -1,6 +1,11 @@
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
+import meter4 from "../assets/img/meter4.svg";
+import meter5 from "../assets/img/meter5.svg";
+import meter6 from "../assets/img/meter6.png";
+import meter7 from "../assets/img/meter7.svg";
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -38,35 +43,31 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Html</h5>
+                                <h5>HTML</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>css</h5>
+                                <h5>CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter5} alt="Image" />
+                                <h5>AngularJS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter7} alt="Image" />
+                                <h5>ReactJS</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Javascript</h5>
+                                <h5>JAVASCRIPT</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Java</h5>
+                                <img src={meter6} alt="Image" />
+                                <h5>JAVA</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Java</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Javascript</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>ReactJs</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Angular</h5>
+                                <img src={meter4} alt="Image" />
+                                <h5>NodeJS</h5>
                             </div>
                         </Carousel>
                     </div>
