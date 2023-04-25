@@ -90,6 +90,10 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
+.navbar img{
+  width: 150%;
+  height: auto;
+}
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
@@ -255,6 +259,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  padding-left: 10px;
 }
 .banner p {
   color: #B8B8B8;
@@ -285,8 +290,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner img {
   display: flex;
   border-radius: 50px;
-  max-width: 370px;
+  max-width: 470px;
   padding-top: 20px;
+  padding-left: 10px;
   animation: updown 4s linear infinite;
 }
 @keyframes updown {
@@ -357,12 +363,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project p {
   color: #B8B8B8;
-  font-size: 18px;
+  font-size: 30px;
+  font-weight: 300;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
+  justify-content: center;
+  width: 60%;
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -608,20 +616,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer {
   padding: 0 0 50px 0;
   padding-top: 50px;
-  background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .footer img {
-  width: 26%;
+  width: 36%;
 }
 .footer p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 24px;
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+.social-icon a img {
+  width: 59%;
+  z-index: 1;
+  transition: 0.2s ease-in-out;
+}
+
+.social-icon a {
+  width: 60px;
+  height: 60px;
+  background: rgba(217, 217, 217, 0.1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 15px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 @media (min-width:1700px) {
@@ -707,7 +732,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
   position: absolute;
 }
-
 .txt-rotate > .wrap {
   border-right: 0.05em solid #ffffff;
 }
