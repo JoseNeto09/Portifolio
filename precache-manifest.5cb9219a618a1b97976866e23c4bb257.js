@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7c2b0df6fc2945af9e5b",
-    "url": "/Portifolio/static/css/main.01af3b77.chunk.css"
+    "revision": "871ac8cdcde0c6958094",
+    "url": "/Portifolio/static/css/main.4fe69d81.chunk.css"
   },
   {
-    "revision": "7c2b0df6fc2945af9e5b",
-    "url": "/Portifolio/static/js/main.7c2b0df6.chunk.js"
+    "revision": "871ac8cdcde0c6958094",
+    "url": "/Portifolio/static/js/main.871ac8cd.chunk.js"
   },
   {
     "revision": "f543a40bef5e0ee902d6",
@@ -52,55 +52,51 @@ self.__precacheManifest = [
     "url": "/Portifolio/static/media/project-img1.d5dfc839.png"
   },
   {
-    "revision": "4129c8f47ee6086db26a33b581941550",
-    "url": "/Portifolio/static/media/project-img2.4129c8f4.png"
+    "revision": "aac0df770c5d80f30eef9f0f63e6448a",
+    "url": "/Portifolio/static/media/project-img2.aac0df77.png"
   },
   {
     "revision": "a8822e204211be92b2412ccbe284e785",
     "url": "/Portifolio/static/media/contact-img.a8822e20.svg"
   },
   {
-    "revision": "dff2b6246274897c980cd8a354f7f979",
-    "url": "/Portifolio/static/media/nav-icon1.dff2b624.svg"
+    "revision": "cb5eff733bf95cc5aa52b5d0f0a45646",
+    "url": "/Portifolio/static/media/icons8-github.cb5eff73.svg"
   },
   {
-    "revision": "0393a6c85ddc105c9304f0f7787ddaea",
-    "url": "/Portifolio/static/media/nav-icon2.0393a6c8.svg"
+    "revision": "dff2b6246274897c980cd8a354f7f979",
+    "url": "/Portifolio/static/media/nav-icon1.dff2b624.svg"
   },
   {
     "revision": "81ff4e970a39053a0acdc10fd58dc5c4",
     "url": "/Portifolio/static/media/nav-icon3.81ff4e97.svg"
   },
   {
-    "revision": "63911e8535278ced52b8a37e819f6f5d",
-    "url": "/Portifolio/static/media/CentraNo2-Medium.63911e85.ttf"
-  },
-  {
     "revision": "4ea3794d631bedab7999678f46b0a162",
     "url": "/Portifolio/static/media/CentraNo2-Bold.4ea3794d.ttf"
+  },
+  {
+    "revision": "63911e8535278ced52b8a37e819f6f5d",
+    "url": "/Portifolio/static/media/CentraNo2-Medium.63911e85.ttf"
   },
   {
     "revision": "386f05946a76935fcabf319affff517a",
     "url": "/Portifolio/static/media/CentraNo2-Book.386f0594.ttf"
   },
   {
-    "revision": "e9228c17c13a87653f1b8ed01a3ff306",
-    "url": "/Portifolio/static/media/footer-bg.e9228c17.png"
-  },
-  {
     "revision": "04eb8fc57f27498e5ae37523e3bfb2c7",
     "url": "/Portifolio/static/media/revicons.04eb8fc5.woff"
-  },
-  {
-    "revision": "17629a5dfe0d3c3946cf401e1895f091",
-    "url": "/Portifolio/static/media/revicons.17629a5d.ttf"
   },
   {
     "revision": "2feb69ccb596730c72920c6ba3e37ef8",
     "url": "/Portifolio/static/media/revicons.2feb69cc.eot"
   },
   {
-    "revision": "b315f987a0bbabed5319c33bd985d546",
+    "revision": "17629a5dfe0d3c3946cf401e1895f091",
+    "url": "/Portifolio/static/media/revicons.17629a5d.ttf"
+  },
+  {
+    "revision": "5558f12a7b89965f90ff74dfc376c057",
     "url": "/Portifolio/index.html"
   }
 ];
