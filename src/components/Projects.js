@@ -13,19 +13,25 @@ import 'animate.css';
 export const Projects = () => {
   const projects = [
     {
-      title: "<Astronaut dev/>",
-      description: "Crud de cursos online",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Food App",
-      description: "Faça pedidos para o seu restaurante favorito",
+      title: "MyStore",
+      description: "Loja de artigos feminios",
       imgUrl: projImg2,
+      link: "https://JoseNeto09.github.io/myStore",
+      
     },
+
+    {
+      title: "<Astronaut dev/>",
+      description: "CRUD de Cursos Online",
+      imgUrl: projImg1,
+      link: "https://github.com/JoseNeto09/myStore",
+    },
+
     {
       title: "My Notes",
       description: "ToodList de anotações importantes",
       imgUrl: projImg3,
+      link:"https://github.com/JoseNeto09/myStore",
     }
   ];
   return (
@@ -38,7 +44,6 @@ export const Projects = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Meus Projetos</h2>
                 <p>Projetos desenvolvidos com objetivo de adquirir técnicas em desenvolvimento web, seguindo regras de negócio, análise de requisitos de cada projeto.</p>
-               
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
@@ -46,10 +51,8 @@ export const Projects = () => {
                         {
                           projects.map((project, index) => {
                             return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
+                              <ProjectCard key={index}{...project}/>
+                              
                             )
                           })
                         }

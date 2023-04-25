@@ -3,7 +3,6 @@ import React from 'react';
 
 const responsive = {
   superLargeDesktop: {
-    // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
     items: 5
   },
@@ -21,7 +20,7 @@ const responsive = {
   }
 };
 
-export const ProjectCard = ({ title, description, imgUrl }) => {
+export const ProjectCard = ({ title, description, imgUrl, link }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
@@ -29,8 +28,12 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
+          <br/>
+          <br/>
+          <a className="buttonLInk" href={link}>Saiba Mais.</a>
         </div>
       </div>
+
     </Col>
   )
 }

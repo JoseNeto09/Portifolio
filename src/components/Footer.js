@@ -20,7 +20,6 @@ export const Footer = () => {
               <a href="https://www.linkedin.com/in/jos%C3%A9-lopes-sobrinho-neto/"><img src={navIcon2} alt="Likedin Icon" /></a>
               <a href="https://www.instagram.com/joselopes.sn/"><img src={navIcon3} alt="Instagram Icon" /></a>
             </div>
-           
           </Col>
         </Row>
       </Container>

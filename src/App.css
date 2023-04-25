@@ -372,6 +372,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: center;
   width: 60%;
 }
+
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -463,12 +464,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
-.proj-txtx span {
+.proj-txtx span{
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+.proj-txtx a{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+  text-decoration: none;
+}
+.proj-txtx a:hover{
+  color: #B8B8B8;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+
 .background-image-right {
   top: 20%;
   position: absolute;
