@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bb9515f8fd8508fd96ff",
-    "url": "/Portifolio/static/css/main.54e40cf4.chunk.css"
+    "revision": "41359874768437b76462",
+    "url": "/Portifolio/static/css/main.eb53a8c6.chunk.css"
   },
   {
-    "revision": "bb9515f8fd8508fd96ff",
-    "url": "/Portifolio/static/js/main.bb9515f8.chunk.js"
+    "revision": "41359874768437b76462",
+    "url": "/Portifolio/static/js/main.41359874.chunk.js"
   },
   {
     "revision": "a9bf6fcba8df25954df2",
@@ -84,6 +84,10 @@ self.__precacheManifest = [
     "url": "/Portifolio/static/media/nav-icon3.81ff4e97.svg"
   },
   {
+    "revision": "386f05946a76935fcabf319affff517a",
+    "url": "/Portifolio/static/media/CentraNo2-Book.386f0594.ttf"
+  },
+  {
     "revision": "4ea3794d631bedab7999678f46b0a162",
     "url": "/Portifolio/static/media/CentraNo2-Bold.4ea3794d.ttf"
   },
@@ -92,23 +96,19 @@ self.__precacheManifest = [
     "url": "/Portifolio/static/media/CentraNo2-Medium.63911e85.ttf"
   },
   {
-    "revision": "386f05946a76935fcabf319affff517a",
-    "url": "/Portifolio/static/media/CentraNo2-Book.386f0594.ttf"
-  },
-  {
     "revision": "04eb8fc57f27498e5ae37523e3bfb2c7",
     "url": "/Portifolio/static/media/revicons.04eb8fc5.woff"
-  },
-  {
-    "revision": "2feb69ccb596730c72920c6ba3e37ef8",
-    "url": "/Portifolio/static/media/revicons.2feb69cc.eot"
   },
   {
     "revision": "17629a5dfe0d3c3946cf401e1895f091",
     "url": "/Portifolio/static/media/revicons.17629a5d.ttf"
   },
   {
-    "revision": "4cd6c794e84a170c64120fb1c74fd4e7",
+    "revision": "2feb69ccb596730c72920c6ba3e37ef8",
+    "url": "/Portifolio/static/media/revicons.2feb69cc.eot"
+  },
+  {
+    "revision": "a92fd4b1fdf18c63eb2e9a90e3c006c1",
     "url": "/Portifolio/index.html"
   }
 ];
