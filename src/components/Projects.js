@@ -5,6 +5,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
 
 import TrackVisibility from 'react-on-screen';
 import React from 'react';
@@ -17,22 +18,29 @@ export const Projects = () => {
       description: "Loja de artigos feminios",
       imgUrl: projImg2,
       link: "https://JoseNeto09.github.io/myStore",
-      
+    },
+    
+    {
+      title: "MyKaban",
+      description: "Crie seu Kaban com o MyKaban",
+      imgUrl: projImg3,
+      link:"https://joseneto09.github.io/myKanban/",
+    },
+    {
+      title: "MyBlog",
+      description: "Aplicação de postagens com autenticação por usuario.",
+      imgUrl: projImg4,
+      link:"https://github.com/JoseNeto09/Mern-blog",
     },
 
     {
       title: "<Astronaut dev/>",
       description: "CRUD de Cursos Online",
       imgUrl: projImg1,
-      link: "https://github.com/JoseNeto09/myStore",
+      link: "https://github.com/JoseNeto09/Courses-Angular",
     },
 
-    {
-      title: "My Notes",
-      description: "ToodList de anotações importantes",
-      imgUrl: projImg3,
-      link:"https://github.com/JoseNeto09/myStore",
-    }
+
   ];
   return (
     <section className="project" id="project">
