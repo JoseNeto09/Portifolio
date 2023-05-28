@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "41359874768437b76462",
-    "url": "/Portifolio/static/css/main.eb53a8c6.chunk.css"
+    "revision": "b90be59be85985ab5d54",
+    "url": "/Portifolio/static/css/main.f6d11b24.chunk.css"
   },
   {
-    "revision": "41359874768437b76462",
-    "url": "/Portifolio/static/js/main.41359874.chunk.js"
+    "revision": "b90be59be85985ab5d54",
+    "url": "/Portifolio/static/js/main.b90be59b.chunk.js"
   },
   {
-    "revision": "a9bf6fcba8df25954df2",
-    "url": "/Portifolio/static/js/1.a9bf6fcb.chunk.js"
+    "revision": "51c70ef038c6a9909dde",
+    "url": "/Portifolio/static/js/1.51c70ef0.chunk.js"
   },
   {
-    "revision": "364821a26a89735aee2d",
-    "url": "/Portifolio/static/css/2.f88c0f95.chunk.css"
+    "revision": "8069d5b7eef9cdfde777",
+    "url": "/Portifolio/static/css/2.52aeca66.chunk.css"
   },
   {
-    "revision": "364821a26a89735aee2d",
-    "url": "/Portifolio/static/js/2.364821a2.chunk.js"
+    "revision": "8069d5b7eef9cdfde777",
+    "url": "/Portifolio/static/js/2.8069d5b7.chunk.js"
   },
   {
-    "revision": "0af91b78b9daeafe8195",
-    "url": "/Portifolio/static/js/runtime~main.0af91b78.js"
+    "revision": "205c1d6fe6f59f5fb96c",
+    "url": "/Portifolio/static/js/runtime~main.205c1d6f.js"
   },
   {
     "revision": "e2b8674c67ac891c2d939a3542777f4d",
@@ -68,6 +68,14 @@ self.__precacheManifest = [
     "url": "/Portifolio/static/media/project-img2.aac0df77.png"
   },
   {
+    "revision": "b8c727c58ad2210e8bf5b974beda98b1",
+    "url": "/Portifolio/static/media/project-img3.b8c727c5.png"
+  },
+  {
+    "revision": "bc93aebd8b0a09025c4aefd05aaedde8",
+    "url": "/Portifolio/static/media/project-img4.bc93aebd.png"
+  },
+  {
     "revision": "a8822e204211be92b2412ccbe284e785",
     "url": "/Portifolio/static/media/contact-img.a8822e20.svg"
   },
@@ -84,16 +92,16 @@ self.__precacheManifest = [
     "url": "/Portifolio/static/media/nav-icon3.81ff4e97.svg"
   },
   {
-    "revision": "386f05946a76935fcabf319affff517a",
-    "url": "/Portifolio/static/media/CentraNo2-Book.386f0594.ttf"
-  },
-  {
     "revision": "4ea3794d631bedab7999678f46b0a162",
     "url": "/Portifolio/static/media/CentraNo2-Bold.4ea3794d.ttf"
   },
   {
     "revision": "63911e8535278ced52b8a37e819f6f5d",
     "url": "/Portifolio/static/media/CentraNo2-Medium.63911e85.ttf"
+  },
+  {
+    "revision": "386f05946a76935fcabf319affff517a",
+    "url": "/Portifolio/static/media/CentraNo2-Book.386f0594.ttf"
   },
   {
     "revision": "04eb8fc57f27498e5ae37523e3bfb2c7",
@@ -108,7 +116,7 @@ self.__precacheManifest = [
     "url": "/Portifolio/static/media/revicons.2feb69cc.eot"
   },
   {
-    "revision": "a92fd4b1fdf18c63eb2e9a90e3c006c1",
+    "revision": "f60e874a11f377e3de60e93a276ec712",
     "url": "/Portifolio/index.html"
   }
 ];
